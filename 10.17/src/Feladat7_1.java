@@ -1,5 +1,5 @@
 
-public class Feladat1 {
+public class Feladat7_1 {
 	static void intMinMax() {
 
 		int max = Integer.MAX_VALUE;
@@ -48,8 +48,6 @@ public class Feladat1 {
 		System.out.println(max + ", " + min);
 	}
 
-
-
 	public static void main(String[] args) {
 		// 1. Feladat
 		byteMinMax();
@@ -58,7 +56,6 @@ public class Feladat1 {
 		doubleMinMax();
 		longMinMax();
 		floatMinMax();
-
 
 	}
 

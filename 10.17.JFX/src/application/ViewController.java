@@ -3,6 +3,7 @@ package application;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -28,7 +29,7 @@ public class ViewController implements Initializable {
 
     @FXML
     void MenuItemKilepes(ActionEvent event) {
-
+    	Platform.exit();
     }
 
     @FXML
