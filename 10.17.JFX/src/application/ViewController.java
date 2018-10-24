@@ -69,6 +69,16 @@ public class ViewController implements Initializable {
     	tablaAdatok.remove(szemelyTorol);
 
     }
+    @FXML
+    void menuItemSzerkeszt(ActionEvent event) {
+    	Szemely szemelySzerkeszt=tabla.getSelectionModel().getSelectedItem();
+    	idMezo.setText(szemelySzerkeszt.getId());
+    	vNevMezo.setText(szemelySzerkeszt.getVNev());
+    	kNevMezo.setText(szemelySzerkeszt.getKNev());
+    	szdMezo.setText(szemelySzerkeszt.getSzulD());
+    	// hogyan mentse el????  	
+    	
+    }
 
 	private void kezdoAdatok() {
 		Szemely szemely1 = new Szemely("1", "Kis", "Imre", "1999-11-11");
